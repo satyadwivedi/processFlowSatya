@@ -1,0 +1,16 @@
+_schema-version: "3.2"
+ID: processFlowSatya
+version: 0.0.1
+modules:
+- name: MyTestWorkflow
+  type: com.sap.application.content
+  path: MyTestWorkflow
+  requires:
+  - name: workflow
+    parameters:
+      content-target: true
+resources:
+- name: workflow
+  type: org.cloudfoundry.existing-service
+  parameters:
+    service-name: wm_workflow
