@@ -1,0 +1,72 @@
+{
+    "id": "initialdata",
+    "schemaVersion": "1.1.0",
+    "name": "initialData",
+    "revision": "1",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "legal_entry",
+            "type": "string",
+            "label": "Legal Entry",
+            "readOnly": false,
+            "value": "${context.payload.LegalEntity}",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "id": "je_number",
+            "type": "string",
+            "label": "Contract",
+            "readOnly": false,
+            "value": "${context.payload.JENumber}",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "id": "date",
+            "type": "date",
+            "label": "Date",
+            "readOnly": false,
+            "value": "${context.payload.PostingDate}",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "id": "partner_key",
+            "type": "integer",
+            "label": "Partner Key",
+            "readOnly": false,
+            "value": "${context.payload.PartKey}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "fiscal_year",
+            "type": "string",
+            "label": "Fiscal Year",
+            "readOnly": false,
+            "value": "${context.payload.FiscalYear}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": [
+        {
+            "id": "approve",
+            "text": "Approve",
+            "decisionType": "positive"
+        },
+        {
+            "id": "reject",
+            "text": "Reject",
+            "decisionType": "negative"
+        }
+    ]
+}

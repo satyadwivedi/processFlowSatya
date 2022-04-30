@@ -1,0 +1,13 @@
+{
+ "heading": "BTP Workflow",
+ "subject": "FPS workflow process from BTP",
+ "approvers": "satyadwivedi1@gmail.com",
+ "payload": {
+    "PostingDate" : "2022-04-26",
+    "LegalEntity" : "FPSL",
+    "JENumber" : "FSD01LOAN07",
+    "PartKey" : 23234,
+    "FiscalYear" : "2022",
+    "Flag" :""
+ }
+}
