@@ -148,7 +148,7 @@
 		},
 		"ac3feedc-07dd-4641-a0a6-b9cdd8901d81": {
 			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
-			"condition": "${context.usertask2== \"approve\"}",
+			"condition": "${context.usertask== \"approve\"}",
 			"id": "sequenceflow22",
 			"name": "Approve",
 			"sourceRef": "015816e5-2130-4723-9eef-bc40f7b1939c",

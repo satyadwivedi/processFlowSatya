@@ -2,8 +2,8 @@
  "heading": "BTP Workflow",
  "subject": "FPS workflow process from BTP",
  "approvers": "satyadwivedi1@gmail.com",
+ "MyDate":  "2022-05-18",
  "payload": {
-    "PostingDate" : "2022-05-01",
     "LegalEntity" : "FPSL",
     "JENumber" : "FSD01LOAN07",
     "PartKey" : 23234,

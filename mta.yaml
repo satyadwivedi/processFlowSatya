@@ -13,4 +13,4 @@ resources:
 - name: workflow
   type: org.cloudfoundry.existing-service
   parameters:
-    service-name: wm_workflow
+    service-name: WorkflowInstance

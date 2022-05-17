@@ -27,4 +27,4 @@ $.context.product = product;
 
 var info = $.info
 var approverList = $.context.approvers;
-
+$.context.usertask = "approve";
